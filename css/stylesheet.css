@@ -1,0 +1,160 @@
+#wrapper {
+    margin: auto;
+    max-width: 900px;
+    height: 1500px;
+    background-color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    list-style: none;
+    padding: 0px;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact {
+    background-color: lightskyblue;
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.clickedContact {
+    height: 200px;
+}
+
+.profileSymbol {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profileHead {
+    display: flex;
+    justify-content: center;
+}
+
+.contactImage {
+    height: 75%;
+    width: 100%;
+}
+
+.noDisplay {
+    display: none;
+}
+
+.button {
+    margin: 5px;
+    padding: 3px;
+    border: solid 3px black;
+    color: black;
+    background-color:lightseagreen;
+    box-shadow: black 1px 1px 1px;
+}
+
+#cancel {
+    background-color:red;
+}
+
+#createContact {
+    background-color:yellowgreen;
+}
+
+.fieldElement {
+    margin: 10px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactFields {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomButtons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+}
+
+#homepageButton {
+    
+    font-size: 50px;
+}
+
+a {
+    text-decoration-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.hovered {
+    background-color: seagreen;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoElement {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 900px) {
+    #wrapper {
+        margin: auto;
+        max-width: 900px;
+        height: 1500px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: powderblue;
+    }
+
+    .contactList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+}

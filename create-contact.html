@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Contact</title>
+
+    <script src="scripts/driver.js" defer></script>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="navButton button" id="homepageButton"><a href="index.html">Contacts</a></div>
+            <ul class="navList">
+                <li class="navButton button"><a href="create-contact.html">Create New Contact <b>+</b></a></li>
+                <li class="navButton button"><a href="favorites.html">Show Favorites</a></li>
+            </ul> 
+        </nav>
+
+        <main>
+            <div class="profileHead">
+                <img class="profileSymbol" src="images/profile-picture.jpg" alt="Profile Picture">
+            </div>
+        
+            <form action="">
+                <ul class="contactFields">
+                    <li class="fieldElement">
+                        <input type="text" placeholder="Contact Name" name="Contact Name" >  
+                    </li>
+                    <li class="fieldElement">
+                        <input type="text" placeholder="Contact Phone" name="Contact Phone" >  
+                    </li>
+                    <li class="fieldElement">
+                        <input type="text" placeholder="Contact Address" name="Contact Address" > 
+                    </li> 
+                    <li class="fieldElement">
+                        <input type="text" placeholder="Contact Email" name="Contact Email" >
+                    </li> 
+                </ul>
+            </form>
+            <ul class="bottomButtons">
+                <li class="button" id="createContact">Create Contact</li>
+                <li class="button" id="cancel">Cancel</li>
+            </ul>
+        </main>
+    </div>
+</body>
+</html>
